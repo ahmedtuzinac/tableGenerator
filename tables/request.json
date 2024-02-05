@@ -1,0 +1,21 @@
+{
+  "document": {
+    "name": "FirstDocumentEver",
+    "tables": {
+      "content": [
+        {
+          "header": "Some good header",
+          "rows": [],
+          "style": {}
+        }
+      ],
+      "style": {
+
+      }
+    },
+    "styles": {
+      "font-name": "Arial",
+      "font-size": 20
+    }
+  }
+}
