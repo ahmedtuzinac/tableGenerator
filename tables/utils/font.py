@@ -14,14 +14,12 @@ async def set_font_name(**kwargs):
     if isinstance(element, docx.table.Table):
         for row in element.rows:
             for cell in row.cells:
-                cell.text = 'test'
                 for paragraph in cell.paragraphs:
                     for run in paragraph.runs:
                         run.font.name = font_name
 
     if isinstance(element, docx.table._Row):
         for cell in element.cells:
-            cell.text = 'test'
             for paragraph in cell.paragraphs:
                 for run in paragraph.runs:
                     run.font.name = font_name

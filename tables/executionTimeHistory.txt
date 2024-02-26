@@ -1,0 +1,4 @@
+Duration of executing script: 0.0263 seconds.
+Duration of executing script: 72.70034 seconds.
+Duration of executing script: 0.03198 seconds.
+Duration of executing script: 0.03804 seconds.

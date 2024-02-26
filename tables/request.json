@@ -4,13 +4,43 @@
     "tables": {
       "content": [
         {
-          "header": "Some good header",
-          "rows": [],
-          "style": {}
+          "header": {
+            "content": "Some good header",
+            "style": {
+              "font-size": 16
+            }
+          },
+          "rows": [
+            ["Row1Col1", "Row1Col2", "Row1Col3", "Row1Col4"],
+            ["Row2Col1", "Row2Col2", "Row2Col3", "Row2Col4"],
+            ["Row3Col1", "Row3Col2", "Row3Col3"],
+            ["Row4Col1", "Row4Col2", "Row4Col3"]
+          ],
+          "style": {
+            "font-name": "Georgia"
+          }
+        },
+        {
+          "header": {
+            "content": "Some good header2",
+            "style": {
+              "font-size": 16
+            }
+          },
+          "rows": [
+            ["Row1Col1", "Row1Col2", "Row1Col3", "Row1Col4"],
+            ["Row2Col1", "Row2Col2", "Row2Col3", "Row2Col4"],
+            ["Row3Col1", "Row3Col2", "Row3Col3"],
+            ["Row4Col1", "Row4Col2", "Row4Col3"]
+          ],
+          "style": {
+            "font-name": "Georgia"
+          }
         }
       ],
       "style": {
-
+        "font-name": "Arial",
+        "font-size": 12
       }
     },
     "styles": {
